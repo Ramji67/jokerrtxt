@@ -12,7 +12,7 @@ bot_token = os.environ.get("BOT_TOKEN")
 
 
 
-OWNER = int(os.environ.get("OWNER", 841021123))
+OWNER = int(os.environ.get("OWNER", 5850397219))
 
 
 
@@ -20,7 +20,7 @@ try:
 
     ADMINS=[]
 
-    for x in (os.environ.get("ADMINS", "841021123").split()):
+    for x in (os.environ.get("ADMINS", "5850397219").split()):
 
         ADMINS.append(int(x))
 
